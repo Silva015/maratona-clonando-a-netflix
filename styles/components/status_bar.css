@@ -1,0 +1,19 @@
+.status-bar {/*para todos os filhos da status bar*/
+    width: 90%;/*ocupa 90% do seguimento*/
+    margin: 0 auto;/*criação de margem automática e centralização de elementos*/
+    display: flex;/*tira a organização padrão de um embaixo do outro e deixa livre para modifica um do lado do outro*/
+    justify-content: space-between;/*define a distribuição de elementos dentro do display flex*/
+    align-items: center;
+    padding-top: 12px;/*espaçamento interno*/
+    padding-bottom: 12px;
+}
+
+.status-bar__time {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.status-bar__icons img:not(:last-child){
+    margin-right: 5px;
+}

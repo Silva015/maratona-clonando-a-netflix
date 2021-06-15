@@ -1,0 +1,4 @@
+@import "../utils/index.css"; /*import das coisas genéricas que tem em todas as páginas*/
+@import "../components/status_bar.css";
+
+
