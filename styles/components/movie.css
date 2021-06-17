@@ -1,0 +1,34 @@
+.movie {
+    display: flex;
+    overflow: auto;
+}
+
+.movie img:not(:last-child) {
+    margin-right: 7px;
+}
+
+.movie img:first-child {
+    margin-left: 12px;
+}
+
+.movie img:last-child {
+    margin-right: 12px;
+}
+
+.movie__img {
+    width: 103px;
+    height: 161px;
+}
+
+.movie__img--big {
+    width: 154px;
+    height: 251px;
+}
+
+.movie__img--rounded {
+    flex-shrink: 0;/* vem por padrão como 1 no display flex. Se setarmos como 0, a imagem se comporta normalmente */
+    object-fit: cover;/* como a imagem se comporta dentro do espaço que ele tem disponível pra ela */
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+}
